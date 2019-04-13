@@ -1,0 +1,20 @@
+{
+  "name": "Emotions for HN",
+  "version": "0.0.1",
+  "description": "Emotions to the HN comments!",
+  "manifest_version": 2,
+  "permissions": [
+    "https://news.ycombinator.com/",
+    "https://hn-emotions.appspot.com/",
+    "http://localhost:8080/",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/item*"],
+      "run_at": "document_idle",
+      "css": ["css/content.css"],
+      "js": ["js/content.js"]
+    }
+  ]
+}
