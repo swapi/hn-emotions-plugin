@@ -9,6 +9,9 @@
     "http://localhost:8080/",
     "activeTab"
   ],
+  "icons": {
+    "48": "icons/hn-emotions-48.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://news.ycombinator.com/item*"],
