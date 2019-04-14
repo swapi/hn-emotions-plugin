@@ -1,7 +1,7 @@
 {
   "name": "Emotions for HN",
   "version": "0.0.1",
-  "description": "Emotions to the HN comments!",
+  "description": "Add emotions to the HN comments!",
   "manifest_version": 2,
   "permissions": [
     "https://news.ycombinator.com/",

@@ -178,7 +178,7 @@ button::-moz-focus-inner,
 
 /* Switch */
 .custom-switch {
-    padding-left: 2.25rem;
+    padding-left: 0.25rem;
 }
   
 .custom-switch .custom-control-label::before {
