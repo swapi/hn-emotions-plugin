@@ -1,3 +1,5 @@
+/* Code copied from bootstrap.css since I including bootstrap directly messes up HN formatting */
+
 .badge {
     display: inline-block;
     padding: 0.25em 0.4em;

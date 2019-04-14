@@ -1,5 +1,5 @@
 const MAX_BATCH_SIZE = 10
-const HN_EMOTIONS_URL = 'http://localhost:8080'
+const HN_EMOTIONS_URL = 'https://hn-emotions.appspot.com'
 
 const trs = document.getElementsByClassName('athing comtr')
 
